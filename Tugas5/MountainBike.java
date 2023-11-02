@@ -1,3 +1,5 @@
+//ini anak yang mewarisi harta bapaknya
+
 class MountainBike extends Bicycle{
     //the MountainBike subclass adds one more field
     public int seatHeight;

@@ -1,3 +1,5 @@
+//ini bapak
+
 public class Bicycle {
     // the bicycle class has two fealds
     public int gear;

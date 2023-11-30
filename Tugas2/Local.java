@@ -1,6 +1,4 @@
-package pertemuan_2.LocalVariable;
-
-public class GFG {
+class GFG {
     public static void main(String[] args){
         int var = 10;
         //Local Variabel

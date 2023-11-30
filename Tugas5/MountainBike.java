@@ -6,7 +6,6 @@ class MountainBike extends Bicycle{
 
     //the MountainBike subclass has one constructor
     public MountainBike(int gear, int speed, int starHeight)
-
     {
         // invoking base-class(Bicycle) constructor
         super(gear, speed);
@@ -21,8 +20,9 @@ class MountainBike extends Bicycle{
 
     //over riding toString() method 
     //of Bicycle to print more info 
+    @Override
     public String toString()
     {
-        return (super.toString() + "\nseat Height is " + seatHeight);
+        return (super.toString() + "\n" + "seat Height is " + seatHeight);
     }
 }

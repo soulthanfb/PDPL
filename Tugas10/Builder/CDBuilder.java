@@ -1,9 +1,10 @@
 package Tugas10.Builder;
 
 public class CDBuilder {
-    public CDType buildSonyCD() {
+    // Menginisialisasi objec CDType
+    public CDType buildPolytronCd() {
         CDType cds = new CDType();
-        cds.addItem(new Sony());
+        cds.addItem(new Polytron());
         return cds;
     }
 
@@ -13,10 +14,9 @@ public class CDBuilder {
         return cds;
     }
 
-    public CDType buildPolytronCD() {
-        CDType cds = new CDType();
-        cds.addItem(new Polytron());
-        return cds;
-    }
-
+    public CDType buildSonyCD(){  
+             CDType cds=new CDType();  
+             cds.addItem(new Sony());  
+             return cds;  
+              }
 }

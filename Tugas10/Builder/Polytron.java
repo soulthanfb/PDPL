@@ -3,15 +3,15 @@ package Tugas10.Builder;
 public class Polytron extends Company {
 
     @Override
-    public int price() {
+    public String price() {
         // TODO Auto-generated method stub
-        return 26;
+        return "Rp. 3.000.000";
     }
 
     @Override
     public String pack() {
         // TODO Auto-generated method stub
-        return "Polytron CD";
+        return "Polytron";
     }
 
 }

@@ -1,5 +1,5 @@
 package Tugas10.Builder;
 
 public abstract class Company extends CD {    
-    public abstract int price();
+    public abstract String price();
 }

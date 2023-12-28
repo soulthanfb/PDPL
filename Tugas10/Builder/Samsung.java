@@ -3,9 +3,9 @@ package Tugas10.Builder;
 public class Samsung extends Company {
 
     @Override
-    public int price() {
+    public String price() {
         // TODO Auto-generated method stub
-        return 15;
+        return "Rp. 5.000.000";
     }
 
     @Override
